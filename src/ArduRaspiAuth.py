@@ -44,9 +44,9 @@ if __name__ == "__main__":
     print("Example : \n")
 
     print("from ArduRaspiAuth import *")
-    print("Arduino_ID = arduino_get_id({port_number}, USB)")
+    print("Arduino_ID = arduino_get_id({port_number}, USB, 9600)")
 
     print("\nor\n")
     
     print("from ArduRaspiAuth import *")
-    print("Arduino_ID = arduino_get_id({port_number}, ACM)")
+    print("Arduino_ID = arduino_get_id({port_number}, ACM, 9600)")
